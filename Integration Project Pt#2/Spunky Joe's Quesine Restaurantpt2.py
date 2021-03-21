@@ -75,8 +75,7 @@ def main():
         return None
         #That's where the main dish menu will be printed.
     else:
-        ("Sorry " + ask_for_appetizer + 
-        "\n Is not a proper input.\n" + "Please provide a proper input")
+        ("Sorry " + ask_for_appetizer + "\n Is not a proper input.\n" + "Please provide a proper input")
         return main()# This option loops back in order to get a proper answer.
       
 #Another issue we ran into was making sure the variables existed.
