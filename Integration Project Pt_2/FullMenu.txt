@@ -1,0 +1,23 @@
+=================Menu=====================
+Appetizer
+==========================================
+1. Garlic Bread Crumpets             $4.49
+2. Cesar Salad with Dressing         $5.50
+3. Chips with Jalepeno Dip           $3.49
+
+==========================================
+Main Dish
+==========================================
+1. Filet mignon                     $15.49
+2. Fruit Salad with Grilled Fish    $13.50
+3. Garlic Alfredo with
+Shrimp, Peppers & Onions            $14.49
+
+==========================================
+Beverages
+==========================================
+1. Apple Cider                       $5.00
+2. Sparkling Water                   $2.50
+3. Grape Wine                        $6.49
+
+==========================================
