@@ -21,9 +21,7 @@ def appetizer_request():
     ask_for_appetizer = input(
         "Would you like an appetizer. Type Yes or No.: ")
     if ask_for_appetizer == "yes" or ask_for_appetizer == "Yes":
-        appetizer_menu = open(
-            'C:\\Users\\Owner_\\Coding\\Integration '
-            'Project Pt_2\\Appetizer.txt')
+        appetizer_menu = open('Appetizer.txt')
         for appet_line in range(6):
             am = appetizer_menu.readline()
             print(am)  # If yes a section of the menu will be printed for them.
@@ -101,8 +99,7 @@ print(
     "Welcome" + customer + "to Spunky Joe's Cuisine Restaurant!"
                            "Here is the Menu for tonight!:")
 
-full_menu = open(
-    'C:\\Users\\Owner_\\Coding\\Integration Project Pt_2\\FullMenu.txt')
+full_menu = open('FullMenu.txt')
 for fm_line in range(23):
     fm = full_menu.readline()
     print(fm)
@@ -171,8 +168,7 @@ def main():
             appet_chosen_qt = int(appet_list[1])
 
     """ This code opens the text file for the main dish"""
-    main_menu = open(
-        'C:\\Users\\Owner_\\Coding\\Integration Project Pt_2\\mainmenu.txt')
+    main_menu = open('mainmenu.txt')
     for line_md in range(6):
         mm = main_menu.readline()
         print(mm)
@@ -218,8 +214,7 @@ def main():
                           "a positive whole number.")
 
     """ This code opens the text file for Beverages"""
-    beverage_menu = open(
-        'C:\\Users\\Owner_\\Coding\\Integration Project Pt_2\\Beverage.txt')
+    beverage_menu = open('Beverage.txt')
     for line_bev in range(8):
         bm = beverage_menu.readline()
         print(bm)
