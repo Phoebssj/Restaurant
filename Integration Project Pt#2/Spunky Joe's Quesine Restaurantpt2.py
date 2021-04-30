@@ -18,7 +18,7 @@ def WelcomeCustomer():
 customer = WelcomeCustomer()
 print("Welcome " + customer + " to Spunky Joe's Quesine Restaurant! \n Here is the Menu for tonight!:")
 
-full_menu = open('Integration Project Pt#2\FullMenu.txt')
+full_menu = open('FullMenu.txt')
 for x in range(23):
     fm = full_menu.readline()
     print(fm)
@@ -62,7 +62,7 @@ def main():
     #Decide for having a snack before their main dish.
     ask_for_appetizer = input(f"Would you like an appetizer. Type Yes or No.: ")
     if ask_for_appetizer == "yes" or ask_for_appetizer == "Yes":
-      appetizer_menu = open('Integration Project Pt#2\Appetizer.txt')
+      appetizer_menu = open('Appetizer.txt')
       for x in range(6):
         am = appetizer_menu.readline()
         print(am) # If yes a section of the menu will be printed for them
@@ -90,7 +90,7 @@ if appet_list:
     appet_chosen_qt = int(appet_list[1])
 
 """ This code opens the text file for the main dish"""
-main_menu = open('Integration Project Pt#2\mainmenu.txt')
+main_menu = open('mainmenu.txt')
 for x in range(6):
     mm = main_menu.readline()
     print(mm)
@@ -99,7 +99,7 @@ main_dish = input("Main dish of choice?: ")
 
 main_dish_qt = int(input("How many servings would you like?: "))
 """ This code opens the text file for Beverages"""
-beverage_menu = open('Integration Project Pt#2\Beverage.txt')
+beverage_menu = open('Beverage.txt')
 for x in range(8):
     bm = beverage_menu.readline()
     print(bm)
