@@ -362,7 +362,7 @@ def main():
                 input("Please, pay the amount required. "))
             if costumer_payment > 0:
                 break
-            elif costumer_payment == cost:
+            if costumer_payment == cost:
                 break
             break
         except ValueError:
