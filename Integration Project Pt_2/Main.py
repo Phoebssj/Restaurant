@@ -1,38 +1,4 @@
-"""
-# An integration project on what I've learn so far, In a Restaurant theme.
-This program will provide a menu and will ask the user for inputs for dish,
-drink and quantity. It will provide a calculation of the cost of the entire
-meal
-ask the user to oay and ask for a tip.
-
-The code will start with the welcome customer function, where the customer
-will be
-greeted.
-"""
-__author__ = "Sheryll Jacquet"
-
-
-def appetizer_request():
-    """
-    These lines of code give an option for customers to decline or
-    Decide for having a snack before their main dish.
-    This also checks if they type the correct option and quantity.
-    """
-    ask_for_appetizer = input(
-        "Would you like an appetizer. Type Yes or No.: ")
-    if ask_for_appetizer == "yes" or ask_for_appetizer == "Yes":
-        appetizer_menu = open('Appetizer.txt')
-        for appet_line in range(6):
-            am = appetizer_menu.readline()
-            print(am)  # If yes a section of the menu will be printed for them.
-            """
-            The code if from Hackerrank #5 Good Letter Input. But in 
-            this case checks if they input the proper that correlates
-            to the menu. It will loop until you type the number that 
-            correlates to the appetizer then moves to qt.
-            """
-        appet_choice = input("What appetizer would you like? "
-                             "Please type the number "
+https://github.com/Phoebssj/Restaurant
                              "that corresponds to appetizer on the menu.: ")
         appet_qt = 0
         while not (appet_choice == "1" or
